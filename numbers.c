@@ -127,4 +127,4 @@ int print_number_left_shift(char *str, params_t *params)
 	while (i++ < params->width)
 		n += _putchar(pad_char);
 	return (n);
-}
+
