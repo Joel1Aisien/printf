@@ -129,4 +129,4 @@ int print_S(va_list ap, params_t *params)
 		}
 	}
 	return (sum);
-}
+
