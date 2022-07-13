@@ -103,4 +103,4 @@ int print_octal(va_list ap, params_t *params)
 		*--str = '0';
 	params->unsign = 1;
 	return (c += print_number(str, params));
-
+}
